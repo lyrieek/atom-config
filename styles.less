@@ -1,0 +1,139 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed and saved.
+ *
+ * Add your own CSS or Less to fully customize Atom.
+ * If you are unfamiliar with Less, you can read more about it here:
+ * http://lesscss.org
+ */
+
+
+/*
+ * Examples
+ * (To see them, uncomment and save)
+ */
+
+// style the background color of the tree view
+.tree-view {
+  // background-color: whitesmoke;
+  background-color:#000;
+}
+
+.directory>.list-item {
+  color:#2b68f5 !important;
+}
+
+.status-modified>.name{
+  color:red !important;
+}
+
+.directory>.list-item *{
+  color:#85f732;
+}
+
+.file.list-item>.name{
+  color:#10eace;
+}
+
+// style the background and foreground colors on the atom-text-editor-element itself
+atom-text-editor {
+  // color: white;
+  // background-color: hsl(180, 24%, 12%);
+}
+
+// style UI elements inside atom-text-editor
+atom-text-editor .cursor {
+  border-color: red;
+}
+
+.atom-dock-content-wrapper.right .list-inline.tab-bar.inset-panel>.tab{
+  color: limegreen;
+  font-weight: bolder;
+  font-size: 15px;
+  background: darkred;
+}
+
+.list-inline.tab-bar.inset-panel>.texteditor.tab>.title{
+  font-weight: bolder;
+  font-size: 14px;
+  font-family: monospace;
+}
+
+.tab-bar .tab{
+  max-width: 18em;
+}
+
+.texteditor.tab.sortable{
+  background: #2a4148;
+  color: #97c9ff;
+}
+
+.texteditor.tab.sortable.active{
+  background: #31525d;
+  color:#0ecaf7;
+  font-weight: normal;
+}
+
+.texteditor.tab.sortable.active>.title{
+  font-family: sans-serif !important;
+}
+
+.gutter.line-numbers .line-number{
+  color:burlywood;
+  font-weight: bold;
+}
+
+atom-text-editor .gutter .line-number.cursor-line{
+  color: #30e895;
+  font-weight: normal;
+  background: #d00;
+}
+
+.github-CommitView-button{
+  background: blue;
+  border: solid 1px deepskyblue;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.github-StagingView-list {
+  background: #15374c;
+}
+
+.github-PushPull{
+  color:#93f9b5;
+}
+
+.github-FilePatchListView-item.is-modified{
+  background: #316f61;
+}
+
+.github-FilePatchListView-path{
+  color:lime;
+}
+
+.atom-dock-toggle-button-inner.left{
+  background: blue;
+  color: green;
+}
+
+status-bar-cursor>a.inline-block{
+  color:#61afef !important;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.list-tree{
+  font-size: 15px;
+}
+
+.list-tree>li.file.entry.list-item{
+  border-top: 1px red solid;
+}
+
+.list-tree>li.file.entry.list-item.selected::before{
+  border: 2px red solid;
+  background: darkred;
+}

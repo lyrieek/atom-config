@@ -1,0 +1,10 @@
+/blob-store
+/compile-cache
+/storage
+/recovery
+/.apm
+.node-gyp
+.npm
+node_modules
+config.cson
+github.cson

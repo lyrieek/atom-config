@@ -35,8 +35,8 @@
   'ctrl-d': 'editor:delete-line'
   'alt-up': 'editor:move-line-up'
   'alt-down': 'editor:move-line-down'
-  'ctrl-up': 'core:page-up'
-  'ctrl-down': 'core:page-down'
+  'ctrl-up': 'core:move-up'
+  'ctrl-down': 'core:move-down'
   'ctrl-alt-down': 'editor:duplicate-lines'
 
 'body':

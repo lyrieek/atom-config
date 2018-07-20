@@ -9,7 +9,6 @@
  * http://lesscss.org
  */
 
-
 /*
  * Examples
  * (To see them, uncomment and save)
@@ -17,127 +16,135 @@
 
 // style the background color of the tree view
 .tree-view {
-  // background-color: whitesmoke;
-  background-color:   #000;
+    // background-color: whitesmoke;
+    background-color: #091d2a;
 }
 
 .directory>.list-item {
-  color:#2b68f5 !important;
+    color: #2b68f5 !important;
 }
 
-.status-modified>.name{
-  color:red !important;
+.status-modified>.name {
+    color: red !important;
 }
 
-.directory>.list-item *{
-  color: #575ad0;
+.directory>.list-item * {
+    color: #575ad0;
 }
 
-.directory>.list-item .name.icon.icon-file-directory::before{
-  color: #21dce6;
+.directory>.list-item .name.icon.icon-file-directory::before {
+    color: #21dce6;
 }
 
-.file.list-item>.name{
-  color:#10eace;
+.file.list-item>.name {
+    color: #10eace;
 }
 
 // style the background and foreground colors on the atom-text-editor-element itself
 atom-text-editor {
-  // color: white;
-  // background-color: hsl(180, 24%, 12%);
+    // color: white;
+    background-color: #000027;
 }
 
 // style UI elements inside atom-text-editor
 atom-text-editor .cursor {
-  border-color: red;
+    border-color: red;
 }
 
-.atom-dock-content-wrapper.right .list-inline.tab-bar.inset-panel>.tab{
-  color: limegreen;
-  font-weight: bolder;
-  font-size: 15px;
-  background: darkred;
+.syntax--comment{
+    text-shadow: 1px 0px 19px #bbb;
 }
 
-.list-inline.tab-bar.inset-panel>.texteditor.tab>.title{
-  font-weight: bolder;
-  font-size: 14px;
-  font-family: monospace;
+.atom-dock-content-wrapper.right .list-inline.tab-bar.inset-panel>.tab {
+    color: limegreen;
+    font-weight: bolder;
+    font-size: 15px;
+    background: darkred;
 }
 
-.tab-bar .tab{
-  max-width: 18em;
+.list-inline.tab-bar.inset-panel>.texteditor.tab>.title {
+    font-weight: bolder;
+    font-size: 14px;
+    font-family: monospace;
 }
 
-.texteditor.tab.sortable{
-  background: #2a4148;
-  color: #97c9ff;
+.tab-bar .tab {
+    max-width: 18em;
 }
 
-.texteditor.tab.sortable.active{
-  background: #31525d;
-  color:#0ecaf7;
-  font-weight: normal;
+.texteditor.tab.sortable {
+    background: #2a4148;
+    color: #97c9ff;
 }
 
-.texteditor.tab.sortable.active>.title{
-  font-family: sans-serif !important;
+.texteditor.tab.sortable.active {
+    background: #31525d;
+    color: #0ecaf7;
+    font-weight: normal;
 }
 
-.gutter.line-numbers .line-number{
-  color:burlywood;
-  font-weight: bold;
+.texteditor.tab.sortable.active>.title {
+    font-family: sans-serif !important;
 }
 
-atom-text-editor .gutter .line-number.cursor-line{
-  color: #30e895;
-  font-weight: normal;
-  background: #d00;
+.gutter.line-numbers .line-number {
+    color: burlywood;
+    font-weight: bold;
 }
 
-.github-CommitView-button{
-  background: blue;
-  border: solid 1px deepskyblue;
-  border-radius: 12px;
-  cursor: pointer;
+atom-text-editor .gutter .line-number.cursor-line {
+    color: #30e895;
+    font-weight: normal;
+    background: #d00;
+}
+.current-path{
+    color: #1fdbdc;
+}
+
+.github-CommitView-button {
+    background: blue;
+    border: solid 1px deepskyblue;
+    border-radius: 12px;
+    cursor: pointer;
 }
 
 .github-StagingView-list {
-  background: #15374c;
+    background: #15374c;
 }
 
-.github-PushPull>.push-pull-target{
-  color:#93f9b5;
+.github-PushPull>.push-pull-target {
+    color: #93f9b5;
 }
 
-.github-FilePatchListView-item.is-modified{
-  background: #316f61;
+.github-FilePatchListView-item.is-modified {
+    background: #316f61;
 }
 
-.github-FilePatchListView-path{
-  color:lime;
+.github-FilePatchListView-path {
+    color: #9bff00;
+    font-size: 15px;
 }
 
-.atom-dock-toggle-button-inner.left{
-  background: blue;
-  color: green;
+.atom-dock-toggle-button-inner.left {
+    background: blue;
+    color: green;
 }
 
-status-bar-cursor>a.inline-block{
-  color:#61afef !important;
-  font-weight: bold;
-  font-size: 15px;
+status-bar-cursor>a.inline-block {
+    color: #61afef !important;
+    font-weight: bold;
+    font-size: 15px;
 }
 
-.list-tree{
-  font-size: 15px;
+.list-tree {
+    font-size: 15px;
 }
 
-.list-tree>li.file.entry.list-item{
-  border-top: 1px red solid;
+.list-tree>li.file.entry.list-item {
+    border-top: 1px red solid;
 }
 
-.list-tree>li.file.entry.list-item.selected::before{
-  border: 2px red solid;
-  background: darkred;
+.list-tree>li.file.entry.list-item.selected::before {
+    border: 2px red solid;
+    background: darkred;
 }
